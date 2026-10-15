@@ -31,7 +31,9 @@
         display: grid;
         place-items: center;
         font-family: Arial, Helvetica, sans-serif;
-        background: var(--tau-bg);
+        background:
+          linear-gradient(90deg, rgba(3, 10, 6, 0.78), rgba(3, 10, 6, 0.7)),
+          url("backgroundLOg.jpg") center / cover no-repeat fixed;
         color: var(--tau-text);
       }
 
@@ -231,6 +233,10 @@
         form {
           grid-template-columns: 1fr;
         }
+      }
+
+      body {
+        background: url("backgroundLOg.jpg") center / cover no-repeat fixed;
       }
     </style>
   </head>
